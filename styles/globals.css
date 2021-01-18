@@ -6,10 +6,12 @@
   
   --color-gray: #E3E1DC;
   --color-gold: #DEC68B;
+  --color-brown: #291507;
 
   --border-radius-sm: 12px;
   --border-radius-md: 24px;
   --border-radius-lg: 42px;
+  --border-radius-xl: 90px;
 }
 
 html,
