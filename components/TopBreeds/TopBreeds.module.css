@@ -1,0 +1,9 @@
+.top_breeds {
+  background-color: var(--color-gray);
+  border-bottom-left-radius: var(--border-radius-lg);
+  border-bottom-right-radius: var(--border-radius-lg);
+  
+  padding: 20px 29px;
+  margin-bottom: 60px;
+  height: 340px;
+}

@@ -1,0 +1,10 @@
+.hero {
+  background: var(--color-primary) url('/img/hero-sm.png') no-repeat;
+  border-top-left-radius: var(--border-radius-lg);
+  border-top-right-radius: var(--border-radius-lg);
+
+  color: var(--color-secondary);
+
+  padding: 20px 29px;
+  height: 340px;
+}
