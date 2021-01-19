@@ -4,7 +4,7 @@ const CatAbout = () => {
   return (
     <div className={styles.cat_about}>
       <div className={styles.cat_information}>
-        <h2>Why Should you have a cat?</h2>
+        <h3>Why Should you have a cat?</h3>
         <div className={styles.cat_information_text}>Having a cat around you can actually trigger the release of calming chemicals in your body which lower your stress and anxiety levels...</div>
         <a href="#">Read more &rarr;</a>
       </div>

@@ -4,7 +4,7 @@
   line-height: 22px;
 }
 
-.cat_information h2 {
+.cat_information h3 {
   color: var(--color-brown);
   margin-bottom: 40px;
   font-size: 48px;
@@ -15,7 +15,7 @@
   padding-top: 19px;
 }
 
-.cat_information h2::before {
+.cat_information h3::before {
     display: block;
     content: "";
     border-top: .3rem solid var(--color-brown);
