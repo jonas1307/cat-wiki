@@ -66,6 +66,10 @@
 }
 
 @media screen and (min-width: 1024px) {  
+  .top_breeds {
+    padding: 20px 100px;
+  }
+
   .breed_title h2 {
     font-size: 18px;
     line-height: 22px;
