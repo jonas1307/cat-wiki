@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import styles from './TopBreeds.module.css';
 
 const TopBreeds = () => {
@@ -8,29 +9,37 @@ const TopBreeds = () => {
       </div>
       <div className={styles.breed_header}>
         <div className={styles.subtitle}>66+ breeds for you to discover</div>
-        <div className={styles.read_more}><a href="#">See more &rarr;</a></div>
+        <div className={styles.read_more}><Link href="/top">See more &rarr;</Link></div>
       </div>
       <div className={styles.breed_gallery}>
-        <div className={styles.breed_item}>
-          <div className={styles.breed_img} style={{backgroundImage: "url('https://cdn2.thecatapi.com/images/ZocD-pQxd.jpg')"}}>
+        <Link href="/details/1">
+          <div className={styles.breed_item}>
+            <div className={styles.breed_img} style={{backgroundImage: "url('https://cdn2.thecatapi.com/images/ZocD-pQxd.jpg')"}}>
+            </div>
+            <span className={styles.breed_name}>Bengal</span>
           </div>
-          <span className={styles.breed_name}>Bengal</span>
-        </div>
-        <div className={styles.breed_item}>
-          <div className={styles.breed_img} style={{backgroundImage: "url('https://cdn2.thecatapi.com/images/ZocD-pQxd.jpg')"}}>
+        </Link>
+        <Link href="/details/1">
+          <div className={styles.breed_item}>
+            <div className={styles.breed_img} style={{backgroundImage: "url('https://cdn2.thecatapi.com/images/ZocD-pQxd.jpg')"}}>
+            </div>
+            <span className={styles.breed_name}>Bengal</span>
           </div>
-          <span className={styles.breed_name}>Bengal</span>
-        </div>
-        <div className={styles.breed_item}>
-          <div className={styles.breed_img} style={{backgroundImage: "url('https://cdn2.thecatapi.com/images/ZocD-pQxd.jpg')"}}>
+        </Link>
+        <Link href="/details/1">
+          <div className={styles.breed_item}>
+            <div className={styles.breed_img} style={{backgroundImage: "url('https://cdn2.thecatapi.com/images/ZocD-pQxd.jpg')"}}>
+            </div>
+            <span className={styles.breed_name}>Bengal</span>
           </div>
-          <span className={styles.breed_name}>Bengal</span>
-        </div>
-        <div className={styles.breed_item}>
-          <div className={styles.breed_img} style={{backgroundImage: "url('https://cdn2.thecatapi.com/images/ZocD-pQxd.jpg')"}}>
+        </Link>        
+        <Link href="/details/1">
+          <div className={styles.breed_item}>
+            <div className={styles.breed_img} style={{backgroundImage: "url('https://cdn2.thecatapi.com/images/ZocD-pQxd.jpg')"}}>
+            </div>
+            <span className={styles.breed_name}>Bengal</span>
           </div>
-          <span className={styles.breed_name}>Bengal</span>
-        </div>
+        </Link>
       </div>
     </div>
   )
